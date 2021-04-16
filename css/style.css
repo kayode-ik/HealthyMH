@@ -623,7 +623,7 @@ background-position: 38% -237.5px;
 
 @media(min-width:1200px) {
     .container {
-        max-width: 1165px
+        max-width: 100% !important;
     }
 }
 

@@ -25,27 +25,31 @@
       display: inline-block;
       cursor: pointer;
     }
-    
-    .bar1, .bar2, .bar3 {
+
+    .bar1,
+    .bar2,
+    .bar3 {
       width: 35px;
       height: 5px;
       background-color: #000;
       margin: 6px 0;
       transition: 0.4s;
     }
-    
+
     .change .bar1 {
       -webkit-transform: rotate(-45deg) translate(-9px, 6px);
       transform: rotate(-45deg) translate(-9px, 6px);
     }
-    
-    .change .bar2 {opacity: 0;}
-    
+
+    .change .bar2 {
+      opacity: 0;
+    }
+
     .change .bar3 {
       -webkit-transform: rotate(45deg) translate(-8px, -8px);
       transform: rotate(45deg) translate(-8px, -8px);
     }
-    </style>
+  </style>
 
 </head>
 
@@ -70,12 +74,9 @@
         <div class="col-md-6 d-flex justify-content-md-end">
           <div class="social-media">
             <p class="mb-0 d-flex">
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
-                    class="sr-only">Facebook</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i
-                    class="sr-only">Twitter</i></span></a>
-              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i
-                    class="sr-only">Instagram</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+              <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
             </p>
           </div>
         </div>
@@ -87,15 +88,14 @@
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.php"><img src="/images/LogoNew03.png" alt="image"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        
-     <span class="oi oi-menu"></span> 
-     <div class="container2" onclick="myFunction(this)">
-       <div class="bar1"></div>
-       <div class="bar2"></div>
-       <div class="bar3"></div>
-     </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="oi oi-menu"></span>
+        <div class="container2" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
 
       </button>
 
@@ -109,7 +109,7 @@
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item"><a href="bookings.php" class="nav-link" style="
     background: #e1ad01;
-    color: white;" >Book Now</a></li>
+    color: white;">Book Now</a></li>
         </ul>
       </div>
     </div>
@@ -120,8 +120,7 @@
     <div class="container">
       <div style="margin-top:30px" class="row no-gutters slider-text align-items-end justify-content-center">
         <div class="col-md-9 ftco-animate mb-5 text-center">
-          <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index-2.php">Home <i
-                  class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span>
+          <p class="breadcrumbs mb-0"><span class="mr-2"><a href="index-2.php">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span>
           </p>
           <h1 class="mb-0 bread">About Us</h1>
         </div>
@@ -135,53 +134,67 @@
   <section class="ftco-section" style="margin-top: -85px;">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-12 d-flex ftco-animate" style=" font-family: 'FontAwesome';
+        <div class="col-md-12  ftco-animate" style=" font-family: 'FontAwesome';
         font-size: 20px;">
-          <p>The Healthy Marriage Hub is an avant-garde organization poised to help revamp marriages, heal homes and ensure a marriage devoid of rancour, bitterness and lockdown. Over the years, as we work with singles and married couples all over the globe, we have discovered the devastating effects of unhealthy marriages on all parties concerned. </p>
+          <p>The Healthy Marriage Hub is an avant-garde organization poised to help revamp marriages, heal homes and ensure a marriage devoid of rancour, bitterness and lockdown.
+            Research shows that positive relationships make us happier, healthier, and live
+            longer. So, it is vital to build healthy relationships free from high conflicts, to
+            ensure we stay healthy and happy.
+            We understand the devastating effects of unhealthy relationships on all parties
+            concerned and have over the years, developed a Healthy Marriage Model (HMM)
+            as a tool to help singles navigate their relationship options and the married, to
+            heal and revamp their marriages.</p> 
+           <p> Do not despair- you can still have a healthy
+            relationship! I know this is possible because I have been there myself.
+            I have overcome seemingly insurmountable challenges in my own marriage. I
+            have also read vastly about it and have learned a lot from competent teachers,
+            mentors, coaches, and other couples’ experiences.
+            </p>
 
 
         </div>
         <div class="col-md-12" style=" font-family: 'FontAwesome';
         font-size: 20px;">
-          <p>The damages caused by an unhealthy marriage is so devastating that we formulated a Healthy Marriage Model (HMM) to help singles navigate their relationship options and to help married couples heal and revamp their marriages.</p>
-     
+          <p>Relationship problems affect different areas of your life like work, health, hobbies
+            and other relationships, and counselling or coaching, can help you resolve a lot
+            of these issues.</p>
+
         </div>
       </div>
     </div>
   </section>
 
-    <!-- == IMAGE SECTION == -->
-    <section class="ftco-section testimony-section2" >
-      <div class="img-5 img-bg2 border" style="background-image: url(images/photobgnd.jpg"></div>
-      <!-- <div class="overlay"></div> -->
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <!-- <span class="subheading">""""</span> -->
-            <!-- <h2 class="mb-3">Testimonials</h2> -->
-          </div>
+  <!-- == IMAGE SECTION == -->
+  <section class="ftco-section testimony-section2">
+    <div class="img-5 img-bg2 border" style="background-image: url(images/photobgnd.jpg"></div>
+    <!-- <div class="overlay"></div> -->
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <!-- <span class="subheading">""""</span> -->
+          <!-- <h2 class="mb-3">Testimonials</h2> -->
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-  
-  
-              <!-- ==FOURTH ITEM IMAGE NEEDED== -->
-              <!-- TODO IMAGE NEEDED -->
+      </div>
+      <div class="row ftco-animate">
+        <div class="col-md-12">
+          <div class="carousel-testimony owl-carousel ftco-owl">
 
-            </div>
+
+            <!-- ==FOURTH ITEM IMAGE NEEDED== -->
+            <!-- TODO IMAGE NEEDED -->
+
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
   <!-- ===ABOUT US SECTION ===-->
   <section class="ftco-section ftco-no-pb ftco-no-pt" style="margin-top: 176px">
     <div class="container">
       <div class="row">
-        <div class=" aboutowner_img col-md-6 user-img3 d-flex justify-content-center align-items-center"
-          style="background-image: url(images/woman.png);">
+        <div class=" aboutowner_img col-md-6 user-img3 d-flex justify-content-center align-items-center" style="background-image: url(images/woman.png);">
         </div>
         <div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 ">
           <div class="heading-section">
@@ -191,7 +204,10 @@
               Resource Consultant, Entrepreneur, Certified Marriage Counsellor, Relationship Coaching Specialist and
               Author;<em>Managing Expectations in Marriage; A Practical Guide</em> </p>
 
-            <p style="font-family: FontAwesome;">"My mission is to partner with couples who have lost their way on the marriage journey and empower them with practical approaches to get them back on track".</p>
+            <p style="font-family: FontAwesome;">
+              "My mission is To Encourage, Educate and Equip individuals with the tools and principles with
+              which to build a healthy relationship, and maximize their full potential.
+              ".</p>
 
           </div>
         </div>
@@ -206,7 +222,7 @@
         <div class="col-md-4 d-flex">
           <div class="intro aside-stretch d-lg-flex w-100">
             <div class="icon">
-              <span class="flaticon-checklist"></span> 
+              <span class="flaticon-checklist"></span>
             </div>
             <div class="text">
               <h2>VISION</h2>
@@ -217,12 +233,13 @@
         <div class="col-md-4 d-flex">
           <div class="intro color-1 d-lg-flex w-100">
             <div class="icon">
-              <span class="flaticon-employee"></span> 
+              <span class="flaticon-employee"></span>
             </div>
             <div class="text">
               <h2>MISSION</h2>
-              <p>To support the growth and development of relationships and marriages by partnering
-                with couples to maximize their full potential
+              <p>To Encourage, Educate and Equip individuals with the tools and principles with
+                which to build a healthy relationship, and maximize their full potential.
+
                 .</p>
             </div>
           </div>
@@ -231,7 +248,7 @@
         <div class="col-md-4 d-flex">
           <div class="intro color-1 d-lg-flex w-100">
             <div class="icon">
-              <span class="flaticon-chat"></span> 
+              <span class="flaticon-chat"></span>
             </div>
             <div class="text">
               <h2>CORE VALUES</h2>
@@ -405,8 +422,7 @@
         <!-- == LOGO DIV  == -->
         <div class="col-sm-12 col-md">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2 logo"><a class="navbar-brand" href="index.php"><img src="/images/LogoNew02.png"
-                  alt="image"></a></h2>
+            <h2 class="ftco-heading-2 logo"><a class="navbar-brand" href="index.php"><img src="/images/LogoNew02.png" alt="image"></a></h2>
             <p>Counseling For Your Better Life.</p>
             <ul class="ftco-footer-social list-unstyled mt-2">
               <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a>
@@ -462,9 +478,7 @@
               <ul>
                 <li><span class="icon fa fa-map marker"></span><span class="text">Address</span></li>
                 <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">555 67 78 564</span></a></li>
-                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text"><span
-                        class="__cf_email__"
-                        data-cfemail="bfd6d1d9d0ffc6d0cacddbd0d2ded6d191dcd0d2">hello@thehealthymarriage</span></span></a>
+                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text"><span class="__cf_email__" data-cfemail="bfd6d1d9d0ffc6d0cacddbd0d2ded6d191dcd0d2">hello@thehealthymarriage</span></span></a>
                 </li>
               </ul>
             </div>
@@ -480,9 +494,10 @@
           <div class="col-md-12">
             <p class="mb-0" style="color: rgba(255,255,255,.5);">
               Copyright &copy;
-              <script data-cfasync="false"
-                src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-              <script>document.write(new Date().getFullYear());</script> All rights reserved
+              <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>
+                document.write(new Date().getFullYear());
+              </script> All rights reserved
             </p>
           </div>
         </div>
@@ -492,14 +507,13 @@
 
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
       <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
     </svg></div>
-    <script>
-      function myFunction(x) {
-        x.classList.toggle("change");
-      }
-      </script>
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+  </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -511,15 +525,17 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-23581568-13');
